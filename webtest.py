@@ -12,7 +12,7 @@ print("-- Start --")
 ip = "20.240.223.158"
 dstIP = "20.240.223.158"
 dstPort = 80
-counter = 100
+counter = 100000
 port = 80
 times = 10
 threads = 20
