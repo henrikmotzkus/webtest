@@ -4,7 +4,7 @@ How to test the Azure Ddos protection with a self written attack tool
 
 # Solution
 
-Python script that sends SYN an amount of packets with the help of Azure batch jobs in order to trigger Ddos protection
+Python script that sends an amount of SYN packets with the help of Azure batch jobs in order to trigger Ddos protection
 
 # How to
 
