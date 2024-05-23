@@ -1,5 +1,5 @@
 """
-Create a pool of nodes to output text files from azure blob storage.
+Create a pool of nodes
 """
 
 import datetime
@@ -18,7 +18,7 @@ from azure.batch.batch_auth import SharedKeyCredentials
 import azure.batch.models as batchmodels
 from azure.core.exceptions import ResourceExistsError
 
-import config
+import clientconfig
 
 DEFAULT_ENCODING = "utf-8"
 
