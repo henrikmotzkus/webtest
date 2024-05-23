@@ -162,7 +162,7 @@ def create_pool(batch_service_client: BatchServiceClient, pool_id: str):
             ),
             node_agent_sku_id="batch.node.ubuntu 20.04"),
         vm_size=config.POOL_VM_SIZE,
-        target_dedicated_nodes=config.POOL_NODE_COUNT,
+        target_low_priority_nodes=config.POOL_NODE_COUNT,
         start_task=batchmodels.StartTask(
             command_line="/bin/bash -c \"sudo add-apt-repository -y \\\"deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe restricted\\\" && sudo apt-get -y update && sudo apt-get -y install python3-pip && sudo pip3 install scapy && git clone https://github.com/henrikmotzkus/webtest.git\"",
             wait_for_success=True,
