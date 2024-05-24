@@ -22,3 +22,7 @@ Python script that sends an amount of SYN packets with the help of Azure batch j
 https://github.com/Azure-Samples/azure-batch-samples
 https://learn.microsoft.com/en-us/azure/ddos-protection/
 
+# Important!
+
+Please follow Microsofts safe penetraion testing rules! https://www.microsoft.com/en-us/msrc/pentest-rules-of-engagement?rtc=1
+
